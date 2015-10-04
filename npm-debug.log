@@ -1,0 +1,164 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-', 'g', 'ios-sim' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /Volumes/My Passport/PhoneGap/vamoose/package.json
+5 verbose readDependencies loading dependencies from /Volumes/My Passport/PhoneGap/vamoose/package.json
+6 silly cache add args [ '-', null ]
+7 verbose cache add spec -
+8 silly cache add args [ 'g', null ]
+9 verbose cache add spec g
+10 silly cache add args [ 'ios-sim', null ]
+11 verbose cache add spec ios-sim
+12 silly cache add parsed spec { raw: '-',
+12 silly cache add   scope: null,
+12 silly cache add   name: null,
+12 silly cache add   rawSpec: '-',
+12 silly cache add   spec: '/Volumes/My Passport/PhoneGap/vamoose/-',
+12 silly cache add   type: 'local' }
+13 silly cache add parsed spec { raw: 'g',
+13 silly cache add   scope: null,
+13 silly cache add   name: 'g',
+13 silly cache add   rawSpec: '',
+13 silly cache add   spec: '*',
+13 silly cache add   type: 'range' }
+14 silly addNamed g@*
+15 verbose addNamed "*" is a valid semver range for g
+16 silly addNameRange { name: 'g', range: '*', hasData: false }
+17 silly mapToRegistry name g
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/g
+21 verbose addNameRange registry:https://registry.npmjs.org/g not in flight; fetching
+22 silly cache add parsed spec { raw: 'ios-sim',
+22 silly cache add   scope: null,
+22 silly cache add   name: 'ios-sim',
+22 silly cache add   rawSpec: '',
+22 silly cache add   spec: '*',
+22 silly cache add   type: 'range' }
+23 silly addNamed ios-sim@*
+24 verbose addNamed "*" is a valid semver range for ios-sim
+25 silly addNameRange { name: 'ios-sim', range: '*', hasData: false }
+26 silly mapToRegistry name ios-sim
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry uri https://registry.npmjs.org/ios-sim
+30 verbose addNameRange registry:https://registry.npmjs.org/ios-sim not in flight; fetching
+31 error addLocal Could not install /Volumes/My Passport/PhoneGap/vamoose/-
+32 verbose request uri https://registry.npmjs.org/g
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 1:38:56 AM
+35 verbose request id 3eafdcafa72ccea7
+36 http request GET https://registry.npmjs.org/g
+37 verbose request uri https://registry.npmjs.org/ios-sim
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 1:38:57 AM
+40 verbose etag "A2RR1AGYM7090JA29QJV90SII"
+41 http request GET https://registry.npmjs.org/ios-sim
+42 http 200 https://registry.npmjs.org/g
+43 silly get cb [ 200,
+43 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+43 silly get     etag: '"8AYIUDSUHLGXZT7X52XKA2O0S"',
+43 silly get     'content-type': 'application/json',
+43 silly get     'cache-control': 'max-age=60',
+43 silly get     'content-length': '6814',
+43 silly get     'accept-ranges': 'bytes',
+43 silly get     date: 'Sun, 27 Sep 2015 05:38:57 GMT',
+43 silly get     via: '1.1 varnish',
+43 silly get     age: '0',
+43 silly get     connection: 'keep-alive',
+43 silly get     'x-served-by': 'cache-jfk1028-JFK',
+43 silly get     'x-cache': 'MISS',
+43 silly get     'x-cache-hits': '0',
+43 silly get     'x-timer': 'S1443332337.444294,VS0,VE96',
+43 silly get     vary: 'Accept' } ]
+44 verbose get saving g to /Users/rlamay/.npm/registry.npmjs.org/g/.cache.json
+45 http 200 https://registry.npmjs.org/ios-sim
+46 silly get cb [ 200,
+46 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+46 silly get     etag: '"O3LTG4EVQMGP965J1O2NE8YU"',
+46 silly get     'content-type': 'application/json',
+46 silly get     'cache-control': 'max-age=60',
+46 silly get     'content-length': '20161',
+46 silly get     'accept-ranges': 'bytes',
+46 silly get     date: 'Sun, 27 Sep 2015 05:38:57 GMT',
+46 silly get     via: '1.1 varnish',
+46 silly get     age: '0',
+46 silly get     connection: 'keep-alive',
+46 silly get     'x-served-by': 'cache-jfk1029-JFK',
+46 silly get     'x-cache': 'MISS',
+46 silly get     'x-cache-hits': '0',
+46 silly get     'x-timer': 'S1443332337.443936,VS0,VE79',
+46 silly get     vary: 'Accept' } ]
+47 verbose get saving ios-sim to /Users/rlamay/.npm/registry.npmjs.org/ios-sim/.cache.json
+48 silly addNameRange number 2 { name: 'g', range: '*', hasData: true }
+49 silly addNameRange versions [ 'g',
+49 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5', '2.0.0' ] ]
+50 silly addNamed g@2.0.0
+51 verbose addNamed "2.0.0" is a plain semver version for g
+52 silly addNameRange number 2 { name: 'ios-sim', range: '*', hasData: true }
+53 silly addNameRange versions [ 'ios-sim',
+53 silly addNameRange   [ '1.8.0',
+53 silly addNameRange     '1.8.1',
+53 silly addNameRange     '1.8.2',
+53 silly addNameRange     '1.9.0',
+53 silly addNameRange     '2.0.0',
+53 silly addNameRange     '2.0.1',
+53 silly addNameRange     '3.0.0',
+53 silly addNameRange     '3.1.0',
+53 silly addNameRange     '3.1.1',
+53 silly addNameRange     '4.1.0',
+53 silly addNameRange     '4.1.1',
+53 silly addNameRange     '3.2.0',
+53 silly addNameRange     '5.0.0',
+53 silly addNameRange     '5.0.1' ] ]
+54 silly addNamed ios-sim@5.0.1
+55 verbose addNamed "5.0.1" is a plain semver version for ios-sim
+56 silly mapToRegistry name g
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/g
+60 verbose addRemoteTarball https://registry.npmjs.org/g/-/g-2.0.0.tgz not in flight; adding
+61 verbose addRemoteTarball [ 'https://registry.npmjs.org/g/-/g-2.0.0.tgz',
+61 verbose addRemoteTarball   '7a77ca0d66b65b206ce1d362428b4b8ee6b3a420' ]
+62 silly mapToRegistry name ios-sim
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/ios-sim
+66 verbose addRemoteTarball https://registry.npmjs.org/ios-sim/-/ios-sim-5.0.1.tgz not in flight; adding
+67 verbose addRemoteTarball [ 'https://registry.npmjs.org/ios-sim/-/ios-sim-5.0.1.tgz',
+67 verbose addRemoteTarball   '3ff63a7254334f6129fbf7112511774cfd0dd992' ]
+68 info retry fetch attempt 1 at 1:38:57 AM
+69 info attempt registry request try #1 at 1:38:57 AM
+70 http fetch GET https://registry.npmjs.org/g/-/g-2.0.0.tgz
+71 info retry fetch attempt 1 at 1:38:57 AM
+72 info attempt registry request try #1 at 1:38:57 AM
+73 http fetch GET https://registry.npmjs.org/ios-sim/-/ios-sim-5.0.1.tgz
+74 http fetch 200 https://registry.npmjs.org/ios-sim/-/ios-sim-5.0.1.tgz
+75 silly fetchAndShaCheck shasum 3ff63a7254334f6129fbf7112511774cfd0dd992
+76 verbose addTmpTarball /var/folders/_g/yqsrl1_j60xc_4hb_y43jhr40000gn/T/npm-68242-a415e6ac/registry.npmjs.org/ios-sim/-/ios-sim-5.0.1.tgz not in flight; adding
+77 verbose addTmpTarball already have metadata; skipping unpack for ios-sim@5.0.1
+78 silly cache afterAdd ios-sim@5.0.1
+79 verbose afterAdd /Users/rlamay/.npm/ios-sim/5.0.1/package/package.json not in flight; writing
+80 verbose afterAdd /Users/rlamay/.npm/ios-sim/5.0.1/package/package.json written
+81 http fetch 200 https://registry.npmjs.org/g/-/g-2.0.0.tgz
+82 silly fetchAndShaCheck shasum 7a77ca0d66b65b206ce1d362428b4b8ee6b3a420
+83 verbose addTmpTarball /var/folders/_g/yqsrl1_j60xc_4hb_y43jhr40000gn/T/npm-68242-a415e6ac/registry.npmjs.org/g/-/g-2.0.0.tgz not in flight; adding
+84 verbose addTmpTarball already have metadata; skipping unpack for g@2.0.0
+85 silly cache afterAdd g@2.0.0
+86 verbose afterAdd /Users/rlamay/.npm/g/2.0.0/package/package.json not in flight; writing
+87 verbose afterAdd /Users/rlamay/.npm/g/2.0.0/package/package.json written
+88 verbose stack Error: ENOENT, open '/Volumes/My Passport/PhoneGap/vamoose/-'
+88 verbose stack     at Error (native)
+89 verbose cwd /Volumes/My Passport/PhoneGap/vamoose
+90 error Darwin 14.5.0
+91 error argv "node" "/usr/local/bin/npm" "install" "-" "g" "ios-sim"
+92 error node v0.12.7
+93 error npm  v2.11.3
+94 error path /Volumes/My Passport/PhoneGap/vamoose/-
+95 error code ENOENT
+96 error errno -2
+97 error enoent ENOENT, open '/Volumes/My Passport/PhoneGap/vamoose/-'
+97 error enoent This is most likely not a problem with npm itself
+97 error enoent and is related to npm not being able to find a file.
+98 verbose exit [ -2, true ]
